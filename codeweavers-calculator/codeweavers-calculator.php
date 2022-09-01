@@ -2,7 +2,7 @@
 /*
 Plugin Name: Codeweavers Finance Calculator
 Plugin URI: https://codeweavers.net
-Description: Add Finance Calculator for Fund My Van.co.uk
+Description: Add Finance Calculator from codeweavers.net
 Version: 1.0.5
 Author: Syed Muzaffar Tirmizi
 Author URI: https://www.upwork.com/freelancers/syedtirmizi
@@ -60,8 +60,8 @@ function codeweavers_finance_calculator_script($atts = array(), $content = null)
    
 }
 ob_start(); ?> 	
-	<!-- <script type="text/javascript" src="https://plugins.codeweavers.net/scripts/v1/platform/finance?ApiKey=KoX2u5RF6uG52UPGSV"></script> -->
-	<script type="text/javascript" src="https://services.codeweavers.net/v2/script/FinancePlugin?key=KoX2u5RF6uG52UPGSV"></script>
+	<!-- <script type="text/javascript" src="https://plugins.codeweavers.net/scripts/v1/platform/finance?ApiKey={APIKEY}"></script> -->
+	<script type="text/javascript" src="https://services.codeweavers.net/v2/script/FinancePlugin?key={APIKEY}"></script>
 
 <script type="text/javascript">
   function loadPlugin(){
