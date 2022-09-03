@@ -3,7 +3,7 @@
 Plugin Name: Codeweavers Finance Calculator
 Plugin URI: https://codeweavers.net
 Description: Add Finance Calculator from codeweavers.net
-Version: 1.0.5
+Version: 1.0.6
 Author: Syed Muzaffar Tirmizi
 Author URI: https://www.upwork.com/freelancers/syedtirmizi
 License: GNU Public License v3
@@ -174,3 +174,9 @@ add_action('add_meta_boxes', 'mjt_codeweavers_add_custom_meta_box');
 
 /*include standalone form*/
 include_once('standalone.php');
+
+/*include standalone form*/
+include_once('finance-calculator.php'); 
+
+/*include standalone form*/
+include_once('lillianstanley.php');
